@@ -1,8 +1,6 @@
-#include <stdio.h>
-
 // Desafio de Xadrez - MateCheck
 int main() {
-    int i;
+    int i, j;
 
     printf("*** DESAFIO DE XADREZ ***\n");
 
@@ -27,5 +25,15 @@ while (i <= 5){
     i++;
  } while (i <= 8);
  
+//Movimento do Cavalo - 2 casas para baixo e 1 para esquerda
+//Estrutura aninhada for
+printf("\n**Movimento do Cavalo**\n");
+for (i = 1; i <= 2; i++) {
+   printf("Baixo\n");
+}
+for (j = 1; j <= 1; j++){
+   printf("Esquerda");
+   printf("\n");
+}
      return 0;
 }
